@@ -1,51 +1,20 @@
-List of steps to write up into blog post
-========================================
+Hello!
+======
 
-* Found releases table on charts website
-* Saved local version and used jQuery to pull all <tr> elements
-* Used script [insert link] to output to csv
-* Used node csv to json to create array of objects
-* Used dateFormatter.js to change date to valid SQL datestring
-* Used databaseMaker.js to create SQL database
-* Created express app and restful api to communicate with dbase (put server.js in root)
+Hello everyone, this is a fork of a project I've been working on. It simply tells you what was number one (in the UK) on your birthday and pulls up the most relevant youtube video result for that search.
 
-Back-end stuff finished!
+I put it together as I thought it would be a good way to get to grips with querying SQL databases, using an MVC framework (I used Backbone) and so on.
 
-* Tried to have separate backbone files according to Yeoman generator but it's easier to just put in one file (v small project)
-* Build backbone file to query database and hold results in model, render to page
-* Next is to take user input and pass to backbone
+I forked it now as I have implemented the things I initially set out to do, but hopefully you'll agree there's still scope to add lots:
 
-Basic code completed
---------------------
+* User sessions via cookies
+* Better security (I'm a bit confused about this as I hosted it on Heroku, which uses https. Does this fork need to be hosted elsewhere, and if so would it need its own https implementation?)
+* Better styling (my design is a bit rubbish and a bit hacky)
+* Maybe adding in something like React
+* Pulling in extra APIs
 
-install sass via npm, add task to grunt so that on serve etc it's done automatically
-Need to:
-* Add in error-checking for server, in case date out of range.
-* Add styling.
-* Increase functionality
+and loads of stuff I haven't thought of.
 
-Styling
--------
+I hope someone finds something interesting to do with it.
 
-* Choose suitable colours
-* think about compatibility
-
-API integration
----------------
-
-* Add in auto loading of youtube
-
-* Make youtube video update on model change
-* Fix grunt file
-* Fix paths to public files
-* index.html isn't built properly
-
-Left to do
-----------
-
-* Blog write up
-* Fix up blog - credits, new pics
-* Tidy up formatting a little bit more (create new media mixin for iphone screen, change ids to classes, alignments on the page etc). Make go button change colour on hover
-* security - ssl, cookies, sql (need to use prepared statements)
-
-* Songkick??
+Tom
