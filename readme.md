@@ -18,3 +18,9 @@ and loads of stuff I haven't thought of.
 I hope someone finds something interesting to do with it.
 
 Tom
+
+Things I forgot!
+----------------
+
+* Accessibility - v important
+* On IE9 the youtube video doesn't load. I have NO idea why, especially as iframes as meant to work in IE9.
